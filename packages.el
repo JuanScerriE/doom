@@ -48,3 +48,9 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
+
+;; tree-sitter
+(package! tree-sitter)
+
+;; tree-sitter languages
+(package! tree-sitter-langs)
